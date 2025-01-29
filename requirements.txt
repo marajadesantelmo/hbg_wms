@@ -1,0 +1,7 @@
+streamlit
+pandas
+supabase
+fpdf
+xlsxwriter
+streamlit_cookies_controller
+plotly.express

@@ -1,0 +1,85 @@
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #002b36; /* Solarized Dark base color */
+        color: #839496; /* Solarized Dark text color */
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #535e5e; /* Solarized Dark heading color */
+    }
+    .stApp {
+        background-color: #002b36; /* Solarized Dark base color */
+    }
+
+    /* Table customization */
+    .dataframe {
+        background-color: #073642; /* Dark green touch */
+        color: #839496; /* Solarized Dark text color */
+    }
+    .dataframe table {
+        width: auto;
+        table-layout: auto;
+        background-color: #073642; /* Dark green touch */
+    }
+    .dataframe th {
+        background-color: #586e75; /* Dark green touch */
+        color: #839496; /* Solarized Dark text color */
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .dataframe td {
+        background-color: #073642; /* Dark green touch */
+        color: #839496; /* Solarized Dark text color */
+        font-size: 6px;
+    }
+    .dataframe td, .dataframe th {
+        padding: 0.1rem;
+    }
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #88dab1; /* Solarized Light base color */
+        color: #657b83; /* Solarized Light text color */
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #586e75; /* Solarized Light heading color */
+    }
+    .stApp {
+        background-color: #a7f0b9; /* Solarized Light base color */
+    }
+
+    /* Table customization */
+    .dataframe {
+        background-color: #eee8d5; /* Light background for tables */
+        color: #657b83; /* Solarized Light text color */
+    }
+    .dataframe table {
+        width: auto;
+        table-layout: auto;
+        background-color: #eee8d5; /* Light background for tables */
+    }
+    .dataframe th {
+        background-color: #d8cfc4; /* Light heading background */
+        color: #657b83; /* Solarized Light text color */
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .dataframe td {
+        background-color: #eee8d5; /* Light background for table cells */
+        color: #657b83; /* Solarized Light text color */
+        font-size: 6px;
+    }
+    .dataframe td, .dataframe th {
+        padding: 0.1rem;
+    }
+}
+
+.custom-metric {
+    font-size: 16px; 
+    color: darkgreen; 
+    font-family: Arial, sans-serif; 
+    text-align: left; 
+    padding: 5px; 
+}
